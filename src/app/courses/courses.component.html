@@ -1,16 +1,17 @@
-<main class="courses py-4">
-  <div
-    class="
-      courses-cotainer
-      container
-      d-flex
-      flex-wrap flex-md-nowrap
-      justify-content-start
-      align-items-center
-    "
-  >
-    <div class="footer-grid test-black py-4 px-4 col-12 col-md-4">
-      Course Card
+<main class="courses py-4 container">
+  <h1>Nuestros Cursos</h1>
+  <div class="courses-container container-fluid d-flex flex-wrap">
+    <div
+      class="test-black py-4 px-4 col-12 col-md-4"
+      *ngFor="let course of arrayCursos"
+    >
+      <div class="single-course-card test-black d-flex flex-column">
+        <a href=""> {{ course.banner }} </a>
+        <a href=""> {{ course.nombre }} </a>
+        <a href="">
+          {{ course.estado }}
+        </a>
+      </div>
     </div>
   </div>
 </main>

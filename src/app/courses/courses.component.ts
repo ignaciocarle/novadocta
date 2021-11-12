@@ -34,6 +34,21 @@ export class CoursesComponent implements OnInit {
       nombre: "curso 4",
       banner: "",
       estado: "finalizado"
+    },    {
+      id: "0003",
+      nombre: "curso 4",
+      banner: "",
+      estado: "finalizado"
+    },    {
+      id: "0003",
+      nombre: "curso 4",
+      banner: "",
+      estado: "finalizado"
+    },    {
+      id: "0003",
+      nombre: "curso 4",
+      banner: "",
+      estado: "finalizado"
     },
   ]
 
